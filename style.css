@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'Dreamer';
+  src: url('fonts/DreamerTM-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'JMH';
+  src: url('fonts/JMH\ Cthulhumbus\ Arcade.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body.landing {
+  background-color: #1a0826;
+  color: #d4c1ec;
+  font-family: 'JMH', monospace;
+  font-size: 50px;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.intro-text {
+  width: 100%;
+  font-size: 1.5em;
+  text-shadow: 0 0 5px #93ffcb, 0 0 10px #b4ffe3;
+}
+
+body.main {
+  background-image: url('https://i.pinimg.com/originals/2d/73/fd/2d73fd1656f8c7981fbd166308eb92a3.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; /* optional – adds a parallax effect */
+  min-height: 100vh; /* ensures it always takes full height */
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  cursor: url('assets/cursor.cur'), auto;
+}
+
+header {
+  font-family: 'JMH', monospace;
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: flex;
+}
+
+.main-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  background: #F0F0F0;
+  padding: 2rem;
+  border: 1px solid #000;
+  max-width: 700px;
+  width: 100%;
+  max-height: 300px;
+}
+
+.sidebar {
+  width: 250px;
+  height: 75vh;
+  background: #2F2A36;
+  color: white;
+  border: 1px solid #000;
+  margin: 0 0 0 2rem;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 3rem;
+}
+
+a {
+  text-decoration: underline;
+  color: white;
+  font-size: 1rem;
+}
+
+a:hover {
+  cursor: url('assets/cursor.cur'), auto;
+}
